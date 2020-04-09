@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include dealer *.css
+recursive-include dealer *.csv
+recursive-include dealer *.html
+recursive-include dealer *.ico
+recursive-include dealer *.js
+recursive-include dealer *.json
+recursive-include dealer *.md
+recursive-include dealer *.png
+recursive-include dealer *.py
+recursive-include dealer *.svg
+recursive-include dealer *.txt
+recursive-exclude dealer *.pyc
