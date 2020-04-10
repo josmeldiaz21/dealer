@@ -1,0 +1,48 @@
+{
+ "creation": "2020-04-09 23:03:02.104684",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "porcentaje_por_defecto"
+ ],
+ "fields": [
+  {
+   "fieldname": "porcentaje_por_defecto",
+   "fieldtype": "Percent",
+   "label": "Porcentaje por defecto"
+  }
+ ],
+ "issingle": 1,
+ "modified": "2020-04-09 23:03:19.946200",
+ "modified_by": "Administrator",
+ "module": "Dealer",
+ "name": "Configuracion de Dealer",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "Vendedor Dealer",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

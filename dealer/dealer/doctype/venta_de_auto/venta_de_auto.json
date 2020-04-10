@@ -1,0 +1,120 @@
+{
+ "autoname": "vehiculo-.DD.-.MM.-.YYYY.-.######",
+ "creation": "2020-04-09 16:14:37.053741",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "vehiculo",
+  "cliente",
+  "section_break_2",
+  "nombre",
+  "marca",
+  "modelo",
+  "column_break_6",
+  "anno",
+  "descripcion",
+  "precio",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "vehiculo",
+   "fieldtype": "Link",
+   "label": "Vehiculo",
+   "options": "Item"
+  },
+  {
+   "fieldname": "cliente",
+   "fieldtype": "Link",
+   "label": "Cliente",
+   "options": "Customer"
+  },
+  {
+   "fieldname": "section_break_2",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fetch_from": "vehiculo.item_name",
+   "fieldname": "nombre",
+   "fieldtype": "Data",
+   "label": "Nombre"
+  },
+  {
+   "fetch_from": "vehiculo.brand",
+   "fieldname": "marca",
+   "fieldtype": "Data",
+   "label": "Marca"
+  },
+  {
+   "fieldname": "modelo",
+   "fieldtype": "Data",
+   "label": "Modelo"
+  },
+  {
+   "fieldname": "column_break_6",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "anno",
+   "fieldtype": "Data",
+   "label": "A\u00f1o"
+  },
+  {
+   "fetch_from": "vehiculo.description",
+   "fieldname": "descripcion",
+   "fieldtype": "Data",
+   "label": "Descripcion"
+  },
+  {
+   "fieldname": "precio",
+   "fieldtype": "Data",
+   "label": "Precio"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Venta de Auto",
+   "print_hide": 1,
+   "read_only": 1
+  }
+ ],
+ "is_submittable": 1,
+ "modified": "2020-04-09 17:30:29.023950",
+ "modified_by": "Administrator",
+ "module": "Dealer",
+ "name": "Venta de Auto",
+ "name_case": "UPPER CASE",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Vendedor Dealer",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
