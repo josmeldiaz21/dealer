@@ -12,7 +12,7 @@ def get_data():
               "name": "Venta de Auto",
               "label": _("Venta de Auto"),
               "description": _("Vehicles sold")
-            }
+            },
           ]
       },
       {
@@ -23,9 +23,9 @@ def get_data():
               "type": "doctype",
               "name": "Configuracion de Dealer",
               "label": _("Configuracion de Dealer"),
-              "description": _("Config")
-            }
+              "description": _("Vehicles sold")
+            },
           ]
-      }
+      },
 
   ]

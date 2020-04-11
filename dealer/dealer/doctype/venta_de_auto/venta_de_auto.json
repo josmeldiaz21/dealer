@@ -7,6 +7,8 @@
  "field_order": [
   "vehiculo",
   "cliente",
+  "column_break_3",
+  "porcentaje",
   "section_break_2",
   "nombre",
   "marca",
@@ -79,10 +81,19 @@
    "options": "Venta de Auto",
    "print_hide": 1,
    "read_only": 1
+  },
+  {
+   "fieldname": "column_break_3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "porcentaje",
+   "fieldtype": "Percent",
+   "label": "Porcentaje"
   }
  ],
  "is_submittable": 1,
- "modified": "2020-04-09 17:30:29.023950",
+ "modified": "2020-04-10 20:47:14.630490",
  "modified_by": "Administrator",
  "module": "Dealer",
  "name": "Venta de Auto",

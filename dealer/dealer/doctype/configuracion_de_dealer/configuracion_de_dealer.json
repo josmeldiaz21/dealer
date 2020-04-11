@@ -1,6 +1,7 @@
 {
  "creation": "2020-04-09 23:03:02.104684",
  "doctype": "DocType",
+ "document_type": "Setup",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
@@ -14,7 +15,7 @@
   }
  ],
  "issingle": 1,
- "modified": "2020-04-09 23:03:19.946200",
+ "modified": "2020-04-09 23:26:32.231305",
  "modified_by": "Administrator",
  "module": "Dealer",
  "name": "Configuracion de Dealer",
