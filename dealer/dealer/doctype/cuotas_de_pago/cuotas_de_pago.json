@@ -1,0 +1,73 @@
+{
+ "autoname": "cuota-.DD.MM.YYYY.-.#######",
+ "creation": "2020-04-11 04:12:43.871668",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "nombre",
+  "fecha",
+  "column_break_2",
+  "cantidad",
+  "column_break_4",
+  "acumulado",
+  "crear_pago"
+ ],
+ "fields": [
+  {
+   "fieldname": "fecha",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Fecha",
+   "width": "2"
+  },
+  {
+   "fieldname": "cantidad",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Cantidad",
+   "width": "2"
+  },
+  {
+   "fieldname": "acumulado",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Acumulado"
+  },
+  {
+   "fieldname": "column_break_2",
+   "fieldtype": "Column Break",
+   "width": "2"
+  },
+  {
+   "fieldname": "column_break_4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "nombre",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Nombre",
+   "width": "6"
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "crear_pago",
+   "fieldtype": "Button",
+   "in_list_view": 1,
+   "label": "Crear Pago"
+  }
+ ],
+ "istable": 1,
+ "modified": "2020-04-19 19:51:47.289085",
+ "modified_by": "Administrator",
+ "module": "Dealer",
+ "name": "Cuotas de Pago",
+ "name_case": "UPPER CASE",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

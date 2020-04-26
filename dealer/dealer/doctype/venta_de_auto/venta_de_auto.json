@@ -9,6 +9,7 @@
   "cliente",
   "column_break_3",
   "porcentaje",
+  "annos",
   "section_break_2",
   "nombre",
   "marca",
@@ -17,7 +18,14 @@
   "anno",
   "descripcion",
   "precio",
-  "amended_from"
+  "amended_from",
+  "section_break_14",
+  "cuotas_de_pago",
+  "section_break_16",
+  "total_a_pagar",
+  "column_break_18",
+  "total_pagado",
+  "cantidad_de_cuotas"
  ],
  "fields": [
   {
@@ -90,10 +98,49 @@
    "fieldname": "porcentaje",
    "fieldtype": "Percent",
    "label": "Porcentaje"
+  },
+  {
+   "fieldname": "section_break_14",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "cuotas_de_pago",
+   "fieldtype": "Table",
+   "label": "Cuotas de Pago",
+   "options": "Cuotas de Pago"
+  },
+  {
+   "fieldname": "total_a_pagar",
+   "fieldtype": "Currency",
+   "label": "Total a pagar"
+  },
+  {
+   "fieldname": "total_pagado",
+   "fieldtype": "Currency",
+   "label": "Total Pagado"
+  },
+  {
+   "fieldname": "column_break_18",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_16",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "cantidad_de_cuotas",
+   "fieldtype": "Data",
+   "label": "Cantidad de cuotas"
+  },
+  {
+   "fieldname": "annos",
+   "fieldtype": "Select",
+   "label": "A\u00f1os",
+   "options": "1\n2\n3\n5\n10"
   }
  ],
  "is_submittable": 1,
- "modified": "2020-04-10 20:47:14.630490",
+ "modified": "2020-04-26 06:03:19.851274",
  "modified_by": "Administrator",
  "module": "Dealer",
  "name": "Venta de Auto",
