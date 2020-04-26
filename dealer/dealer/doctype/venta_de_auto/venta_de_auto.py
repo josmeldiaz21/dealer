@@ -16,9 +16,12 @@ class VentadeAuto(Document):
 		self.crear_tabla_cuotas()
 		self.set_totales()
 	def crear_tabla_cuotas(self):
+		self.cuotas_de_pago.clear()
 		ac = 0
 		meses = int(self.annos) * int(12)
-		cuota = self.porcentaje * self.precio
+
+		cuota = float(self.precio) / meses
+
 		for c in range(meses):
 			ac = ac + cuota
 			
